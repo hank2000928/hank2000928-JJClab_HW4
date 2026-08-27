@@ -2,7 +2,7 @@
 參考筆記: https://github.com/wsunccake/sle15_notes/blob/master/practice/ch2.md  
 
 -------
-#1-2. 依目錄樹作答
+# 1-2. 依目錄樹作答
 答案：  
 | 檔案          | Absolute Path                    |
 | ------------ | --------------------------------- |
@@ -14,14 +14,14 @@
 | `report.txt` | `documents/report.txt`  |
 | `sys.log`    | `../../var/log/sys.log` |
 
-#1-2-3. 用 Absolute Path 切換目錄  
+# 1-2-3. 用 Absolute Path 切換目錄  
 <img width="873" height="462" alt="image" src="https://github.com/user-attachments/assets/c7281f6a-b608-44b7-b51e-85ae5f9a4693" />  
 
 答案分別為:  
 > cd/var/log  
 > cd downloads    
 
-#練習 2. 檔案權限與 chmod  
+# 練習 2. 檔案權限與 chmod  
 <img width="595" height="244" alt="image" src="https://github.com/user-attachments/assets/93814029-4b00-4f3b-a7eb-f268ab323a9d" />  
 
 | 對象     | 權限    | 數字 |
@@ -30,7 +30,7 @@
 | Group  | `r-x` |  5 |
 | Others | `r--` |  4 |
 
-#2-1. 解讀權限字串
+# 2-1. 解讀權限字串
 <img width="883" height="143" alt="image" src="https://github.com/user-attachments/assets/f6f2b1a0-8a33-4012-b0d9-b2a1efdf915a" />
 
 執行結果，輸出為test.txt和testdir的預設權限:  
@@ -41,7 +41,7 @@
 執行結果，更改權限後再次確認:  
 <img width="647" height="480" alt="image" src="https://github.com/user-attachments/assets/2a7aba8f-e073-482f-977c-4b690f833c02" />
 
-#2-3. 檔案與目錄上的 r、x
+# 2-3. 檔案與目錄上的 r、x
 
 | 對象        | 權限  | 意義                |
 | --------- | --- | ----------------- |
@@ -71,7 +71,7 @@
 > file的部分，6-7<0，故為0。以下為實機操作。
 <img width="668" height="482" alt="image" src="https://github.com/user-attachments/assets/b145f960-1e0d-4ae9-b191-fe5d1f59ae71" />  
 
-#2-5. 特殊權限：SUID、SGID、Sticky Bit
+# 2-5. 特殊權限：SUID、SGID、Sticky Bit
 <img width="675" height="238" alt="image" src="https://github.com/user-attachments/assets/7fbbbf78-fa76-425b-9eaf-b2ffd93ba05e" />
 
 > 答: 
