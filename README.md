@@ -13,3 +13,9 @@
 | ------------ | ----------------------- |
 | `report.txt` | `documents/report.txt`  |
 | `sys.log`    | `../../var/log/sys.log` |
+
+#1-2-3. 用 Absolute Path 切換目錄  
+<img width="873" height="462" alt="image" src="https://github.com/user-attachments/assets/c7281f6a-b608-44b7-b51e-85ae5f9a4693" />  
+
+cd/var/log  
+cd dowloads  
