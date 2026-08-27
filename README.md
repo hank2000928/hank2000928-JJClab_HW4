@@ -67,7 +67,8 @@ cd dowloads
 | File      | 666 |   027 | `640` |  
 | Directory | 777 |   027 | `750` |  
     
-    file的部分，6-7<0，故為0
+    file的部分，6-7<0，故為0。以下為實機操作。
+<img width="668" height="482" alt="image" src="https://github.com/user-attachments/assets/b145f960-1e0d-4ae9-b191-fe5d1f59ae71" />  
 
 
 
