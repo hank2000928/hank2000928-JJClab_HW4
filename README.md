@@ -18,8 +18,8 @@
 <img width="873" height="462" alt="image" src="https://github.com/user-attachments/assets/c7281f6a-b608-44b7-b51e-85ae5f9a4693" />  
 
 答案分別為:  
-cd/var/log  
-cd downloads    
+> cd/var/log  
+> cd downloads    
 
 #練習 2. 檔案權限與 chmod  
 <img width="595" height="244" alt="image" src="https://github.com/user-attachments/assets/93814029-4b00-4f3b-a7eb-f268ab323a9d" />  
