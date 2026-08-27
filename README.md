@@ -19,7 +19,7 @@
 
 答案分別為:  
 cd/var/log  
-cd dowloads    
+cd downloads    
 
 #練習 2. 檔案權限與 chmod  
 <img width="595" height="244" alt="image" src="https://github.com/user-attachments/assets/93814029-4b00-4f3b-a7eb-f268ab323a9d" />  
@@ -70,7 +70,12 @@ cd dowloads
     file的部分，6-7<0，故為0。以下為實機操作。
 <img width="668" height="482" alt="image" src="https://github.com/user-attachments/assets/b145f960-1e0d-4ae9-b191-fe5d1f59ae71" />  
 
+#2-5. 特殊權限：SUID、SGID、Sticky Bit
+<img width="675" height="238" alt="image" src="https://github.com/user-attachments/assets/7fbbbf78-fa76-425b-9eaf-b2ffd93ba05e" />
 
-
-
-
+答: 
+    SUID — Set User ID: 主要用在執行檔。一般程式執行時使用「執行者」的權限。有 SUID 時則執行程式時暫時使用「檔案 Owner」的權限。
+    SGID — Set Group ID: SGID 對「執行檔」和「目錄」意義不同。對執行檔執行時採用該檔案所屬 Group 的權限。對目錄更常用的是，在此目錄                         下新增的檔案，會繼承目錄的 Group。所以共同工作資料夾常使用 SGID。
+                        設定<chmod g+s directory>，數字<chmod 2755 directory>前面的「2」就是 SGID。
+    Sticky Bit: 舉例來說執行<ls -ld /tmp>可輸出<drwxrwxrwt>，最後的「t」就是 Sticky Bit。它的用途在於，即使很多使用者都能在這個目
+                錄新增檔案，也不能任意刪除其他使用者的檔案。
